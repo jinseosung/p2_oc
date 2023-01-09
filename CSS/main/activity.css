@@ -42,3 +42,27 @@
   font-weight: var(--bold-weight);
   margin: 1.2rem 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .activity__inner {
+    padding: 1.5rem 1rem;
+  }
+
+  .activity__container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .activity .activity__container {
+    gap: 1rem;
+  }
+
+  .activity .activity__card {
+    min-width: 17rem;
+  }
+
+  .activity .card__title {
+    margin: 1rem;
+  }
+}

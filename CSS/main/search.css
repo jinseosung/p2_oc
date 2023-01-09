@@ -123,3 +123,40 @@
 .main__inner .search__description {
   margin: auto 0;
 }
+
+@media screen and (max-width: 768px) {
+  .main__inner {
+    padding: 0;
+  }
+
+  .main__inner .search {
+    padding: 2rem 1.5rem;
+  }
+
+  .main__inner .search-form__input {
+    flex: 1;
+  }
+
+  .main__inner .search-form__btn-text {
+    display: none;
+  }
+
+  .main__inner .search-form__btn-icon {
+    display: block;
+  }
+
+  .filter .filter__btn {
+    flex: 1;
+  }
+
+  .main__inner .search__infobar {
+    align-items: flex-start;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main__inner .filter {
+    gap: 1rem;
+  }
+}
