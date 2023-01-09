@@ -1,0 +1,26 @@
+.footer {
+  padding: 0 4rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--light-grey-color);
+}
+
+.footer .footer__content {
+  padding: 4rem 3.5rem;
+}
+
+.footer .footer__title {
+  font-weight: var(--bold-weight);
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer__column {
+  margin-bottom: 1rem;
+}
+
+.footer .footer__column:hover {
+  text-decoration: underline;
+}

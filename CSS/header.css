@@ -1,0 +1,32 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+  }
+  
+  .header__logo .logo {
+    width: 4rem;
+    cursor: pointer;
+  }
+  
+  .header .menu {
+    display: flex;
+  }
+  
+  .header .menu__item {
+    display: block;
+    padding: 2rem;
+    border-top: 2px solid transparent;
+  }
+  
+  .header .menu__item:hover {
+    border-top: 2px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .header .memu__item--focused {
+    border-top: 2px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
