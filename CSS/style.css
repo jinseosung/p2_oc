@@ -13,6 +13,9 @@
 /* Footer */
 @import "footer.css";
 
+/* Error message */
+@import "error_message.css";
+
 :root {
   /* color */
   --black-color: #000000;
