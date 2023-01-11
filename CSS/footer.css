@@ -1,15 +1,16 @@
 .footer {
-  padding: 0 4rem;
+  padding: 0 3rem;
 }
 
 .footer__container {
   display: flex;
   flex-wrap: wrap;
+  padding: 3rem 4.5rem;
   background-color: var(--light-grey-color);
 }
 
-.footer .footer__content {
-  padding: 4rem 3.5rem;
+.footer__content {
+  margin-right: 11rem;
 }
 
 .footer .footer__title {
@@ -25,21 +26,36 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 992px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+
+  .footer__content {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 0;
   }
 
   .footer .footer__container {
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 2rem 0;
   }
 
   .footer .footer__content {
     padding: 1rem 3rem;
-    margin-bottom: 2rem;
   }
 
   .footer .footer__title {
     margin-bottom: 1rem;
   }
 }
+

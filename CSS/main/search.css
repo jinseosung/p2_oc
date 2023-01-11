@@ -1,5 +1,5 @@
 .main__inner {
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 3rem;
 }
 
 .main__inner .search {
@@ -61,7 +61,6 @@
 
 .main__inner .filter {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 1rem 2rem;
   margin-bottom: 2rem;
@@ -73,9 +72,8 @@
 
 .main__inner .filter__container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1rem 2rem;
+  gap: 2rem;
 }
 
 .main__inner .filter__btn {
@@ -124,6 +122,28 @@
   margin: auto 0;
 }
 
+@media screen and (max-width: 992px) {
+  .main__inner {
+    padding: 1.5rem 4.5rem;
+  }
+
+  .main__inner .search__title {
+    margin-bottom: 0.7rem;
+  }
+
+  .main__inner .filter__description {
+    font-size: var(--small-size);
+  }
+
+  .main__inner .filter {
+    gap: 0.5rem;
+  }
+
+  .main__inner .filter__container {
+    gap: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main__inner {
     padding: 0;
@@ -145,18 +165,22 @@
     display: block;
   }
 
-  .filter .filter__btn {
+  .main__inner .filter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .main__inner .filter__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main__inner .filter__btn {
     flex: 1;
   }
 
   .main__inner .search__infobar {
     align-items: flex-start;
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .main__inner .filter {
-    gap: 1rem;
   }
 }
