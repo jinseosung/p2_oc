@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-@import "reset.css";
-
-/* Header */
-@import "header.css";
-
-/* Main */
-@import "main/search.css";
-@import "main/offers.css";
-@import "main/activity.css";
-
-/* Footer */
-@import "footer.css";
-
-/* Error message */
-@import "error_message.css";
-
 :root {
   /* color */
   --black-color: #000000;
