@@ -1,3 +1,8 @@
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -30,13 +35,13 @@
   color: var(--primary-color);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .header__inner {
     margin: 0 4.5rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__inner {
     flex-direction: column;
     align-items: stretch;
@@ -67,13 +72,5 @@
   .header .memu__item--focused {
     border-bottom: 2px solid var(--primary-color);
     color: var(--primary-color);
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  header,
-  main,
-  footer {
-    display: none;
   }
 }
