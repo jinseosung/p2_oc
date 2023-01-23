@@ -9,12 +9,12 @@
 }
 
 .activity .activity__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 2rem;
 }
 
 .activity .activity__card {
+  flex: 1;
   display: block;
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

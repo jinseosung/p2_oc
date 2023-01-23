@@ -30,11 +30,6 @@
   color: var(--primary-color);
 }
 
-.header .memu__item--focused {
-  border-top: 2px solid var(--primary-color);
-  color: var(--primary-color);
-}
-
 @media screen and (max-width: 991px) {
   .header__inner {
     margin: 0 4.5rem;
