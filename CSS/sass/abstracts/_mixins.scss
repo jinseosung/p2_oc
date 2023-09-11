@@ -1,0 +1,11 @@
+@mixin menu_border_top($color) {
+  border-top: 2px solid $color;
+}
+
+@mixin menu_border_bottom($color) {
+  border-bottom: 2px solid $color;
+}
+
+@mixin box_shadow($num) {
+  box-shadow: 0 $num * 4px $num * 8px 0 rgba(0, 0, 0, 0.2);
+}

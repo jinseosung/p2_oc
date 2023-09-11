@@ -54,3 +54,12 @@ button {
 	border: none;
 	background-color: transparent;
 }
+
+* {
+	box-sizing: border-box;
+}
+  
+body {
+	font-family: "Raleway", sans-serif;
+	height: 100vh;
+}
